@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1010" viewBox="0 0 1200 1010" role="img" aria-labelledby="flow-title flow-desc">
+<title id="flow-title">사람과 AI의 협업 흐름</title>
+<desc id="flow-desc">사람이 목표와 범위를 전달하면 AI가 자료를 확인합니다. 사람의 결정이 필요하면 기준을 확인한 뒤 작업하고 검증합니다. AI가 결과를 정리하면 사람이 근거를 확인합니다. 수정이 필요하면 AI가 수정·재검증한 결과를 다시 정리해 사람에게 전달합니다. 수정할 사항이 없으면 사람이 다음 작업을 판단합니다.</desc>
+<defs><marker id="flow-arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#91a3bb"/></marker></defs>
+<rect x="0" y="0" width="1200" height="1010" rx="0" fill="#0b0d14"/>
+<rect x="40" y="78" width="500" height="910" rx="20" fill="#13101e"/>
+<rect x="660" y="78" width="500" height="910" rx="20" fill="#0c171e"/>
+<text x="280" y="44" fill="#a875ff" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="26" font-weight="700" text-anchor="middle" dominant-baseline="central">사람</text>
+<text x="880" y="44" fill="#45dcff" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="26" font-weight="700" text-anchor="middle" dominant-baseline="central">AI</text>
+<polyline points="460,150 700,150" fill="none" stroke="#91a3bb" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#flow-arrow)"/>
+<polyline points="880,190 880,235" fill="none" stroke="#91a3bb" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#flow-arrow)"/>
+<polyline points="750,300 460,300" fill="none" stroke="#91a3bb" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#flow-arrow)"/>
+<polyline points="280,340 280,485 700,485" fill="none" stroke="#91a3bb" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#flow-arrow)"/>
+<polyline points="880,365 880,440" fill="none" stroke="#91a3bb" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#flow-arrow)"/>
+<polyline points="880,530 880,600" fill="none" stroke="#91a3bb" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#flow-arrow)"/>
+<polyline points="700,640 460,640" fill="none" stroke="#91a3bb" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#flow-arrow)"/>
+<polyline points="280,680 280,715" fill="none" stroke="#91a3bb" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#flow-arrow)"/>
+<polyline points="410,780 700,780" fill="none" stroke="#91a3bb" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#flow-arrow)"/>
+<polyline points="1060,780 1140,780 1140,640 1060,640" fill="none" stroke="#91a3bb" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#flow-arrow)"/>
+<polyline points="280,845 280,900" fill="none" stroke="#91a3bb" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#flow-arrow)"/>
+<rect x="518.0" y="112" width="124" height="32" rx="7" fill="#0b0d14"/>
+<text x="580" y="128" fill="#b4bdd2" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">작업 요청</text>
+<rect x="568.0" y="262" width="64" height="32" rx="7" fill="#0b0d14"/>
+<text x="600" y="278" fill="#b4bdd2" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">필요</text>
+<rect x="378.0" y="447" width="224" height="32" rx="7" fill="#0b0d14"/>
+<text x="490" y="463" fill="#b4bdd2" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">기준 확인 후 작업</text>
+<rect x="900.0" y="387" width="124" height="32" rx="7" fill="#0b0d14"/>
+<text x="962" y="403" fill="#b4bdd2" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">바로 진행</text>
+<rect x="518.0" y="602" width="124" height="32" rx="7" fill="#0b0d14"/>
+<text x="580" y="618" fill="#b4bdd2" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">확인 요청</text>
+<rect x="493.0" y="742" width="124" height="32" rx="7" fill="#0b0d14"/>
+<text x="555" y="758" fill="#b4bdd2" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">수정 필요</text>
+<rect x="1053.0" y="691" width="124" height="32" rx="7" fill="#0b0d14"/>
+<text x="1115" y="707" fill="#b4bdd2" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">결과 갱신</text>
+<rect x="301.0" y="854" width="124" height="32" rx="7" fill="#0b0d14"/>
+<text x="363" y="870" fill="#b4bdd2" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="central">수정 없음</text>
+<rect x="100" y="110" width="360" height="80" rx="12" fill="#131620" stroke="#a875ff" stroke-width="2"/>
+<text x="280.0" y="139" fill="#f7f8fc" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="central">목표·범위 전달</text>
+<text x="280.0" y="168" fill="#b4bdd2" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central">대상 · 원하는 결과 · 허용 범위</text>
+<rect x="700" y="110" width="360" height="80" rx="12" fill="#131620" stroke="#45dcff" stroke-width="2"/>
+<text x="880.0" y="139" fill="#f7f8fc" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="central">필요한 자료 확인</text>
+<text x="880.0" y="168" fill="#b4bdd2" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central">지침 · 원본 · 스킬 선택</text>
+<polygon points="880,235 1010,300 880,365 750,300" fill="#12151e" stroke="#45dcff" stroke-width="2"/>
+<text x="880" y="284" fill="#f7f8fc" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="central">사람의 결정이</text>
+<text x="880" y="316" fill="#f7f8fc" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="central">필요한가?</text>
+<rect x="100" y="260" width="360" height="80" rx="12" fill="#131620" stroke="#a875ff" stroke-width="2"/>
+<text x="280.0" y="289" fill="#f7f8fc" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="central">기준 결정</text>
+<text x="280.0" y="318" fill="#b4bdd2" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central">기획 · 정책 · 허용 범위</text>
+<rect x="700" y="440" width="360" height="90" rx="12" fill="#131620" stroke="#45dcff" stroke-width="2"/>
+<text x="880.0" y="469" fill="#f7f8fc" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="central">작업·검증</text>
+<text x="880.0" y="498" fill="#b4bdd2" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central">지정한 범위에서 작업하고 검증</text>
+<rect x="700" y="600" width="360" height="80" rx="12" fill="#131620" stroke="#45dcff" stroke-width="2"/>
+<text x="880.0" y="629" fill="#f7f8fc" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="central">변경·검증 결과 정리</text>
+<text x="880.0" y="658" fill="#b4bdd2" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central">근거 · 미확인 사항</text>
+<rect x="100" y="600" width="360" height="80" rx="12" fill="#131620" stroke="#a875ff" stroke-width="2"/>
+<text x="280.0" y="629" fill="#f7f8fc" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="central">결과·근거 확인</text>
+<text x="280.0" y="658" fill="#b4bdd2" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central">실제 변경과 검증 결과 확인</text>
+<polygon points="280,715 410,780 280,845 150,780" fill="#12151e" stroke="#a875ff" stroke-width="2"/>
+<text x="280" y="764" fill="#f7f8fc" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="central">수정이</text>
+<text x="280" y="796" fill="#f7f8fc" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="central">필요한가?</text>
+<rect x="700" y="740" width="360" height="80" rx="12" fill="#131620" stroke="#45dcff" stroke-width="2"/>
+<text x="880.0" y="769" fill="#f7f8fc" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="central">수정·재검증</text>
+<text x="880.0" y="798" fill="#b4bdd2" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central">지적한 문제를 수정하고 다시 검증</text>
+<rect x="100" y="900" width="360" height="80" rx="12" fill="#131620" stroke="#a875ff" stroke-width="2"/>
+<text x="280.0" y="929" fill="#f7f8fc" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="central">다음 작업 판단</text>
+<text x="280.0" y="958" fill="#b4bdd2" font-family="Malgun Gothic, Pretendard, sans-serif" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="central">남은 사항과 다음 작업 확인</text>
+</svg>

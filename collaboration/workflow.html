@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light">
+<title>공용 업무 흐름과 스킬 선택 · 라운지 3.0</title>
+<link rel="stylesheet" href="../assets/style/presentation-theme.css"><link rel="stylesheet" href="../assets/style/part-colors.css"><link rel="stylesheet" href="../assets/style/document.css"></head>
+<body><a class="skip" href="#content">본문으로 이동</a><nav class="doc-nav" aria-label="문서 탐색"><a href="../index.html">전체 시작 페이지</a><a href="../presentation.html">공통 기준 브리핑</a><a href="workflow.md">Markdown 원본</a></nav>
+<header class="doc-header"><div class="type">LOUNGE 3.0 / COMMON WORKFLOW</div><h1>공용 업무 흐름과 스킬 선택</h1><p>요청별 공용 스킬의 사용 상황과 받을 결과를 안내합니다.</p></header><main id="content">
+<section><h2>01. 요청에 맞는 스킬 선택</h2>
+<div class="table-wrap"><table><thead><tr><th scope="col">공용 스킬</th><th scope="col">선택할 상황</th><th scope="col">받을 결과</th></tr></thead><tbody>
+<tr><td><a href="../skills/development/lounge-grill/SKILL.md">기획·요구 검토</a></td><td>요구가 불명확하거나 누락·충돌을 확인할 때</td><td>확인된 요구·결정할 질문·작업 영향</td></tr>
+<tr><td><a href="../skills/development/lounge-spec/SKILL.md">설계·작업 계획</a></td><td>작업 방법·범위·완료 조건을 정할 때</td><td>변경 계획·선행 조건·완료 기준</td></tr>
+<tr><td><a href="../skills/development/lounge-implement/SKILL.md">작성·수정·검증</a></td><td>실제 프로젝트의 문서·디자인·소스를 변경할 때</td><td>변경 결과·실제 검증·미확인 사항</td></tr>
+<tr><td><a href="../skills/development/lounge-review/SKILL.md">결과 검토·인수인계</a></td><td>결과의 누락·문제와 완료 근거를 확인할 때</td><td>수정할 항목·근거·다음 작업</td></tr>
+</tbody></table></div>
+<p>스킬 파일명은 lounge-grill, lounge-spec, lounge-implement, lounge-review입니다. 실제 사용할 때 필요한 SKILL.md를 읽습니다. 자동 등록이나 특정 호출 명령을 전제하지 않습니다.</p>
+</section><hr>
+<section><h2>02. 필요한 단계에서 시작</h2>
+<p>기획에 결정할 질문이 있으면 기획·요구 검토부터 시작합니다. 설계만 요청했다면 설계·작업 계획으로 정리합니다. 범위가 명확한 문구·디자인·코드 수정은 작성·수정·검증부터 시작할 수 있습니다. 검토 요청은 결과 검토·인수인계로 확인합니다.</p>
+<p>모든 단계를 매번 거치지 않습니다. 앞선 결과와 필요한 근거를 다음 작업에 전달하고, 새 판단이 필요하면 해당 범위만 다시 확인합니다.</p>
+</section><hr>
+<section><h2>03. 공용 스킬과 파트별 업무 스킬</h2>
+<p>공용 스킬은 요청 범위 확인·원본 확인·작업·검증·결과 정리의 방법을 맞춥니다. 파트별 업무 스킬은 실제 기획·디자인·개발의 상세 판단 기준을 보완합니다. 해당 파트의 AGENTS.md에서 요청에 필요한 지침만 선택하고, 모든 스킬을 한꺼번에 읽지 않습니다.</p>
+<p>한국어 문서에는 공용 글쓰기 스킬을, HTML 브리핑에는 공용 브리핑 스킬을 함께 적용합니다. 스킬을 선택했다고 요청 범위나 승인 권한이 확대되지는 않습니다.</p>
+</section><hr>
+<section><h2>04. 기획 보완 코멘트와 후속 작업</h2>
+<p>기획 검토에서 보완이 필요하면 <a href="planning-comments.md">기획 보완 코멘트 — 사람·AI 공통 양식</a>을 사용합니다. 관련 원본과 기존 답변을 먼저 확인하고, 결정할 질문·기획서 반영 요청·작업 영향을 정리합니다.</p>
+<p>초안 작성과 실제 등록은 구분합니다. 답변이 오면 결정 근거·적용 범위·기획서 반영 여부와 다음 작업을 실제 업무 원본에서 확인합니다. 질문 등록·정책 확정·구현·검증 완료를 각각 구분합니다.</p>
+</section><hr>
+<section><h2>05. 결과와 업무 기록</h2>
+<p>결과에는 변경 내용·적용 근거·실제 검증 결과·미확인 사항·다음 작업을 작업 규모에 맞춰 남깁니다. 작은 작업에 별도 명세·카드를 강제하지 않습니다.</p>
+<p>기획서와 향후 Redmine의 실제 기록은 각 원본을 기준으로 확인합니다. 공통 가이드에 이슈 상세·진행 상태를 별도 확정본으로 복제하지 않습니다. 위치와 도구 연동 방식은 추후 정리합니다.</p>
+</section>
+<section><h2>06. 가이드 작성과 개발의 구분</h2><p>이 업무 흐름의 네 스킬은 <a href="../skills/development/AGENTS.md">실제 프로젝트 개발</a>에 사용합니다. 공통 가이드나 브리핑 자체를 작성할 때는 <a href="../skills/guides/AGENTS.md">가이드 작성 스킬</a>을 사용합니다.</p></section>
+</main><footer><p>공용 업무 흐름과 스킬 선택</p></footer><script src="../assets/js/common.js" defer></script></body></html>

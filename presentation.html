@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator-skill" content="html-presentation-design-system">
+<meta name="color-scheme" content="dark">
+<title>프로젝트 공통 AI 작업 기준 · 브리핑</title>
+<link rel="stylesheet" href="assets/style/briefing-presentation.css">
+<link rel="stylesheet" href="assets/style/part-colors.css">
+<link rel="stylesheet" href="presentation.css">
+</head>
+<body>
+<a class="skip" href="#content">본문으로 이동</a>
+<div class="scroll-progress" aria-hidden="true"><span></span></div>
+<nav class="section-navigation" aria-label="발표 장면"><a href="#purpose" aria-label="만든 이유"><span>00</span></a><a href="#scope" aria-label="공통 기준과 PL의 역할"><span>01</span></a><a href="#structure" aria-label="문서 구조"><span>02</span></a><a href="#reading" aria-label="요청별 문서 선택"><span>03</span></a><a href="#workflow" aria-label="AI 작업과 결과 확인"><span>04</span></a><a href="#records" aria-label="기획서와 업무 기록"><span>05</span></a></nav>
+<main id="content">
+<section class="presentation-section intro-section" id="purpose" aria-labelledby="purpose-title">
+<div class="orb orb-a" aria-hidden="true"></div><div class="orb orb-b" aria-hidden="true"></div>
+<div class="presentation-content reveal-on-scroll"><div class="section-head"><div>
+<p class="eyebrow">LOUNGE 3.0 · 00 / 05</p>
+<h1 id="purpose-title">프로젝트 공통<br><em>AI 작업 기준</em></h1></div><p class="lead muted">파트와 AI 도구가 달라도, 필요한 자료를 확인하고 작업·검증·결과를 정리하는 기준을 함께 사용합니다.</p></div>
+<div class="part-tags" aria-label="함께 사용하는 파트"><span class="part-tag" data-part="planning">기획</span><span class="part-tag" data-part="design">디자인</span><span class="part-tag" data-part="frontend">프론트엔드</span><span class="part-tag" data-part="backend">백엔드</span></div>
+<div class="diagram-panel summary-grid">
+<article class="flow-card card-surface tone-human"><b>사람</b><strong>목표와 판단 기준</strong><small>무엇을 할지 정하고, AI가 제시한 근거와 실제 결과를 확인합니다.</small></article>
+<article class="flow-card card-surface tone-guide"><b>공통 가이드</b><strong>AI와 일하는 방법</strong><small>요청별 지침·자료·스킬과 문서 작성·검증·기록 기준을 정리합니다.</small></article>
+<article class="flow-card card-surface tone-ai"><b>AI</b><strong>기준에 따른 작업</strong><small>요청 범위와 필요한 원본을 확인하고, 작업 결과와 미확인 사항을 남깁니다.</small></article>
+</div>
+</div></section>
+<section class="presentation-section compact-section" id="scope" aria-labelledby="scope-title">
+<div class="presentation-content reveal-on-scroll"><div class="section-head"><div>
+<p class="eyebrow">LOUNGE 3.0 · 01 / 05</p>
+<h2 id="scope-title">공통 기준과<br><em>파트별 관리</em></h2></div><p class="">함께 사용하는 구조와 형식은 맞추고, 업무에 필요한 내용은 각 파트가 관리합니다.</p></div>
+<div class="diagram-panel summary-grid">
+<article class="flow-card card-surface tone-guide"><b>공통으로 사용</b><strong>구조·문체·작업 기준</strong><small>문서 역할, 사람과 AI의 시작점, HTML 템플릿, 공용 스킬을 함께 사용합니다.</small></article>
+<article class="flow-card card-surface tone-human"><b>담당 PL이 관리</b><strong>파트별 내용과 업무 스킬</strong><small>세부 문서·업무 절차·스킬을 구성하고, 실제 내용이 생길 때 추가합니다.</small></article>
+<article class="flow-card card-surface tone-source"><b>원본에서 확인</b><strong>기획·계약·업무 기록</strong><small>실제 정책·합의·진행 상태는 원본에서 확인하고, 미정과 미확인을 구분합니다.</small></article>
+</div>
+</div></section>
+<section class="presentation-section compact-section" id="structure" aria-labelledby="structure-title">
+<div class="presentation-content reveal-on-scroll"><div class="section-head"><div><p class="eyebrow">LOUNGE 3.0 · 02 / 05</p><h2 id="structure-title">공통 폴더와<br><em>파트별 문서 구조</em></h2></div><p>공통 기준과 작성 도구를 함께 사용하고, 각 파트의 문서는 같은 역할로 나눕니다.</p></div>
+<div class="diagram-panel structure-grid">
+<article class="flow-card card-surface tone-guide"><b>함께 사용하는 기준과 도구</b><strong>공통 폴더</strong><pre class="structure-tree"><code>project_guide/
+├─ AGENTS.md           # 공통 기준·파트 선택
+├─ index.html          # 전체 시작 페이지
+├─ presentation.html   # 공통 기준 브리핑
+├─ project/            # 프로젝트 공통 기준
+├─ collaboration/      # 업무 흐름·코멘트 양식
+├─ skills/             # 목적별 공용 스킬
+│  ├─ AGENTS.md        # 가이드 작성·개발 구분
+│  ├─ guides/          # 가이드·브리핑 작성
+│  │  ├─ AGENTS.md     # 작성 스킬 선택
+│  │  └─ 스킬명/SKILL.md
+│  └─ development/     # 실제 프로젝트 개발
+│     ├─ AGENTS.md     # 개발 스킬 선택
+│     └─ 스킬명/SKILL.md
+├─ templates/          # 공통 HTML 템플릿
+├─ assets/             # 공통 스타일·동작
+├─ planning/           # 기획
+├─ design/             # 디자인
+├─ frontend/           # 프론트엔드
+└─ backend/            # 백엔드</code></pre></article>
+<article class="flow-card card-surface tone-human"><b>담당 PL이 관리하는 문서</b><strong>파트별 문서 구조</strong><pre class="structure-tree"><code>각 파트/
+├─ AGENTS.md           # 파트 기준·문서 선택
+├─ README.md           # 파트 안내
+└─ docs/
+   ├─ AGENTS.md        # 문서 작성·수정 규칙
+   ├─ README.md        # 문서 구조 안내
+   ├─ index.html       # 사람용 시작 페이지
+   ├─ guides/          # 상세 기준
+   ├─ ai/              # AI용 핵심 요약
+   └─ workflow/
+      ├─ AGENTS.md     # 요청별 문서·스킬 선택
+      ├─ index.md      # 업무 안내 원본
+      ├─ index.html    # 사람용 업무 안내
+      └─ skills/
+         ├─ AGENTS.md # 파트별 업무 스킬 선택
+         └─ 스킬명/
+            └─ SKILL.md # 선택한 스킬의 작업 방법</code></pre></article>
+</div><p class="deck-status"><strong>계층을 읽는 방법</strong><br>루트의 공통 기준 → 해당 파트의 지침 → 요청별 문서·스킬 선택 → 필요한 원본 확인. 각 단계에서는 현재 작업에 필요한 내용만 읽고, 작업 대상에 적용되는 지침은 함께 확인합니다.</p><aside class="diagram-note card-surface tone-guide"><b>문서 구성 기준</b><span>파트별 구조는 작성 기준입니다. 상세 문서와 하위 폴더는 실제 내용이 생길 때 담당 PL이 추가합니다. 실제 저장소 위치와 연결 방식은 추후 정리합니다.</span></aside>
+</div></section>
+<section class="presentation-section compact-section" id="reading" aria-labelledby="reading-title">
+<div class="presentation-content reveal-on-scroll"><div class="section-head"><div>
+<p class="eyebrow">LOUNGE 3.0 · 03 / 05</p>
+<h2 id="reading-title">요청에 필요한<br><em>문서만 확인</em></h2></div><p class="">AGENTS.md는 요청에 맞는 문서를 선택하는 안내입니다. 연결된 문서를 매번 전부 읽는 목록이 아닙니다.</p></div>
+<div class="diagram-panel step-flow sequence-palette hierarchy-flow">
+<article class="flow-card card-surface step-card"><b>01</b><strong>루트 지침</strong><small>공통 작업 기준을 확인하고, 이번 요청에 해당하는 파트를 선택합니다.</small></article>
+<article class="flow-card card-surface step-card"><b>02</b><strong>파트·폴더 지침</strong><small>문서의 짧은 요약과 참고할 상황을 보고 필요한 하위 지침을 선택합니다.</small></article>
+<article class="flow-card card-surface step-card"><b>03</b><strong>상세 문서·스킬</strong><small>이번 판단과 작업에 필요한 원본과 스킬을 읽고 적용합니다.</small></article>
+</div>
+<aside class="diagram-note card-surface tone-guide"><b>컨텍스트 윈도우</b><span>AI가 한 번에 참고할 수 있는 정보에는 범위가 있습니다. 필요한 기준을 골라 읽도록 AGENTS.md는 짧게 유지합니다.</span></aside>
+</div></section>
+<section class="presentation-section compact-section" id="workflow" aria-labelledby="workflow-title">
+<div class="presentation-content reveal-on-scroll"><div class="section-head"><div><p class="eyebrow">LOUNGE 3.0 · 04 / 05</p><h2 id="workflow-title">요청부터<br><em>결과 확인까지</em></h2></div><p>요청에 맞는 공용 스킬을 선택하고, 결과를 다음 작업에 전달합니다. 파트별 상세 기준과 업무 스킬은 필요한 경우에만 확인합니다.</p></div>
+<figure class="collaboration-diagram" aria-labelledby="collaboration-caption">
+<h3>사람과 AI의 협업 흐름</h3>
+<div class="collaboration-svg-frame" tabindex="0" role="region" aria-label="사람과 AI의 협업 흐름도. 좁은 화면에서는 좌우로 이동할 수 있습니다."><img src="assets/diagrams/human-ai-workflow.svg" width="1200" height="1010" alt="사람과 AI 역할을 나눈 흐름도. 필요한 결정은 사람에게 확인하고, 수정이 필요하면 AI의 수정·재검증과 사람의 결과 확인으로 돌아갑니다."></div>
+<figcaption id="collaboration-caption">결정이 필요한 부분은 사람에게 확인하고, 수정이 필요한 결과는 AI가 수정·재검증해 다시 확인받습니다.</figcaption></figure>
+
+<h3 class="workflow-skills-title">요청별 공용 스킬</h3>
+<div class="diagram-panel step-flow sequence-palette"><article class="flow-card card-surface step-card"><b>lounge-grill</b><strong>기획·요구 검토</strong><small>기획·요구의 누락이나 충돌을 검토할 때 선택합니다.</small><small>받을 결과: 확인된 요구·결정할 질문·작업 영향.</small></article>
+<article class="flow-card card-surface step-card"><b>lounge-spec</b><strong>설계·작업 계획</strong><small>작업 방법·범위·완료 조건을 정할 때 선택합니다.</small><small>받을 결과: 변경 계획·선행 조건·완료 기준.</small></article>
+<article class="flow-card card-surface step-card"><b>lounge-implement</b><strong>작성·수정·검증</strong><small>실제 프로젝트의 문서·디자인·소스를 변경할 때 선택합니다.</small><small>받을 결과: 변경 결과·실제 검증·미확인 사항.</small></article>
+<article class="flow-card card-surface step-card"><b>lounge-review</b><strong>결과 검토·인수인계</strong><small>결과의 누락·문제와 완료 근거를 확인할 때 선택합니다.</small><small>받을 결과: 수정할 항목·근거·다음 작업.</small></article></div>
+<aside class="diagram-note card-surface tone-guide"><b>스킬 선택 기준</b><span>서비스의 작은 문구 수정은 작성·수정·검증부터 시작할 수 있습니다. 모든 단계를 매번 거치지 않습니다.</span></aside>
+<div class="deck-links"><a href="collaboration/workflow.html">공용 업무 흐름</a><a href="collaboration/planning-comments.html">기획 보완 코멘트 양식</a></div>
+</div></section>
+<section class="presentation-section compact-section" id="records" aria-labelledby="records-title">
+<div class="presentation-content reveal-on-scroll"><div class="section-head"><div>
+<p class="eyebrow">LOUNGE 3.0 · 05 / 05</p>
+<h2 id="records-title">기획서·업무 기록과<br><em>함께 사용</em></h2></div><p class="">공통 가이드는 AI의 작업 방법을 안내합니다. 기획 내용과 이슈 상세는 각 원본에서 관리합니다.</p></div>
+<div class="diagram-panel summary-grid">
+<article class="flow-card card-surface tone-source"><b>업무 근거</b><strong>기획서·계약·소스</strong><small>무엇을 만들어야 하는지, 합의한 내용과 현재 구현은 실제 원본에서 확인합니다.</small></article>
+<article class="flow-card card-surface tone-guide"><b>공통 기준</b><strong>문서·지침·스킬</strong><small>AI가 어떤 자료를 읽고, 어떻게 작업·검증·결과 정리를 할지 안내합니다.</small></article>
+<article class="flow-card card-surface tone-human"><b>업무 기록</b><strong>향후 Redmine과 함께</strong><small>작업·질문·문제·결정·진행 상태는 지정된 업무 기록을 기준으로 확인합니다.</small></article>
+</div>
+<aside class="diagram-note card-surface tone-guide"><b>적용 순서</b><span>지금은 공통 구조와 작성 기준을 준비합니다. 저장소 위치와 Redmine 연동은 추후 정리합니다.</span></aside>
+<div class="deck-links"><a href="index.html">전체 가이드</a><a href="project/documentation.html">공통 문서 운영 기준</a><a href="presentation.md">브리핑 원본</a></div>
+</div></section>
+</main>
+<div class="keyboard-hint" aria-label="위아래 방향키로 장면 이동">↑ ↓</div>
+<script src="assets/js/briefing-presentation.js" defer></script>
+</body>
+</html>

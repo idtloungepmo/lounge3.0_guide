@@ -1,0 +1,43 @@
+/* 파트별 공통 색상 원본. 문서·가이드에서 재사용한다. */
+:root {
+  --part-planning-main: #db2777;
+  --part-planning-bg: #ffedf5;
+  --part-planning-border: #efc5d8;
+  --part-planning-text: #9d2057;
+  --part-design-main: #16a34a;
+  --part-design-bg: #eaf7ef;
+  --part-design-border: #bfe1cb;
+  --part-design-text: #216b3b;
+  --part-frontend-main: #2563eb;
+  --part-frontend-bg: #eaf2ff;
+  --part-frontend-border: #c3d6f4;
+  --part-frontend-text: #2452a1;
+  --part-backend-main: #eab308;
+  --part-backend-bg: #fff7d9;
+  --part-backend-border: #e9d996;
+  --part-backend-text: #80620b;
+}
+[data-part="planning"] {
+  --part-main: var(--part-planning-main);
+  --part-bg: var(--part-planning-bg);
+  --part-border: var(--part-planning-border);
+  --part-text: var(--part-planning-text);
+}
+[data-part="design"] {
+  --part-main: var(--part-design-main);
+  --part-bg: var(--part-design-bg);
+  --part-border: var(--part-design-border);
+  --part-text: var(--part-design-text);
+}
+[data-part="frontend"] {
+  --part-main: var(--part-frontend-main);
+  --part-bg: var(--part-frontend-bg);
+  --part-border: var(--part-frontend-border);
+  --part-text: var(--part-frontend-text);
+}
+[data-part="backend"] {
+  --part-main: var(--part-backend-main);
+  --part-bg: var(--part-backend-bg);
+  --part-border: var(--part-backend-border);
+  --part-text: var(--part-backend-text);
+}

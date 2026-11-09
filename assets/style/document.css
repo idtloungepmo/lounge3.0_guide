@@ -1,0 +1,17 @@
+/* 파트 입구·문서 공통 레이아웃. 기반 테마와 파트 색상 뒤에 연결한다. */
+.skip { position: fixed; top: -100px; left: 16px; z-index: 200; padding: 12px; background: var(--krds-gray-0); }
+.skip:focus { top: 12px; }
+.doc-nav { display: flex; flex-wrap: wrap; gap: 12px 20px; }
+.doc-nav { margin-bottom: 32px; font-size: 15px; }
+.doc-header h1 { margin-bottom: 24px; }
+.doc-header .type { color: var(--part-text, var(--krds-primary-60)); }
+.doc-note { padding: 20px; border-left: 4px solid var(--part-main, var(--krds-primary-50)); border-radius: var(--krds-radius); background: var(--part-bg, var(--krds-primary-5)); }
+.doc-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.doc-card { padding: 24px; border: 1px solid var(--part-border, var(--krds-gray-20)); border-radius: var(--krds-radius); }
+.doc-card h3 { margin-top: 0; }
+.doc-card p:last-child { margin-bottom: 0; }
+.table-wrap { overflow-x: auto; }
+img { max-width: 100%; height: auto; }
+pre { position: relative; }
+@media (max-width: 700px) { .doc-grid { grid-template-columns: 1fr; } .doc-card { padding: 18px; } section { padding: 0; } section h2 { margin-left: 0; margin-right: 0; } }
+@media print { .skip, .doc-nav, .section-quick-menu { display: none; } .doc-card { break-inside: avoid; } }
