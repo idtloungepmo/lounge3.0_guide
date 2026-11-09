@@ -24,3 +24,17 @@ node <Archify 경로>/bin/archify.mjs finalize architecture diagrams/ai-harness.
 ## 문서와 자원 구분
 
 이 폴더에는 독립 다이어그램 HTML, 구조 원본과 갱신 안내를 둡니다. README·시작 페이지에서 쓰는 정지 미리보기와 브리핑에 삽입하는 SVG는 assets/images/의 이미지 자원입니다. [공통 문서 자원 안내](../project/assets.md)를 함께 참고합니다.
+
+## AI 컨텍스트 운영 문서의 설명도
+
+[AI 작업 가이드 심화](../project/ai-context.html)의 설명도 8개는 [Markdown 원본](../project/ai-context.md)의 Mermaid 블록으로 관리합니다. 공통 테마의 `diagram-frame`과 프론트엔드 문서에서 사용하는 Mermaid 설정을 그대로 사용합니다. 별도 SVG·전용 CSS는 사용하지 않습니다.
+
+문구와 관계는 Markdown의 Mermaid 블록에서 먼저 수정하고, 저장소 루트에서 다음 명령으로 HTML에 반영합니다.
+
+```text
+python diagrams/ai-context.generate.py
+```
+
+이 명령은 HTML의 Mermaid 블록만 맞춥니다. 본문과 그림 설명을 변경하면 Markdown·HTML을 함께 수정합니다. 보관함과 작업대·처리 흐름·두 관리 계층·자료 선별·문맥 예산·작업 재개·검증 피드백·원본 대조의 관계를 확인합니다.
+
+`assets/js/mermaid.js`는 2026-11-09에 프론트엔드 가이드 `lounge-docs/docs/assets/js/mermaid.js`에서 가져온 설정입니다. Mermaid 11.16.0 CDN 모듈을 읽으므로 최초 표시에는 네트워크 연결이 필요합니다. 원본 설정이 바뀌면 공통 관리자가 비교한 뒤 갱신합니다. 공통 테마의 색상·폰트·곡선 연결선·자동 배치 설정을 사용하며, 그림별로 글자를 확대하지 않습니다.

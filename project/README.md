@@ -9,6 +9,7 @@
 ## 문서 작성 기준
 
 - [공통 문서 운영 기준](documentation.md)
+- [AI 작업 가이드 심화](ai-context.md) · [사람용 안내](ai-context.html)
 - [문서 관리 기준](maintenance.md)
 - [공통 색상 기준](part-colors.md)
 - [공용 글쓰기 스킬](../skills/guides/korean-work-writing/SKILL.md)
