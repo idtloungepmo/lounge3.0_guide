@@ -1,8 +1,8 @@
 # Local receipts produced when regenerating the Archify diagram.
-/assets/diagrams/*.delivery.json
-/assets/diagrams/*.delivery-pending.json
-/assets/diagrams/*.finalize.json
-/assets/diagrams/*.finalize-summary.json
-/assets/diagrams/*.browser-check.json
-/assets/diagrams/*.visual-check.*
+/diagrams/*.delivery.json
+/diagrams/*.delivery-pending.json
+/diagrams/*.finalize.json
+/diagrams/*.finalize-summary.json
+/diagrams/*.browser-check.json
+/diagrams/*.visual-check.*
 /.archify-reviews/

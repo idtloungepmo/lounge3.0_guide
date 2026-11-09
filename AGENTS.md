@@ -35,7 +35,7 @@
 | 한국어 문서 작성·문체 수정 | [공용 글쓰기 스킬](skills/guides/korean-work-writing/SKILL.md) |
 | HTML 발표·브리핑 작성 | [공용 브리핑 스킬](skills/guides/html-presentation-design-system/SKILL.md) |
 | HTML 문서 작성 | [템플릿 지침](templates/AGENTS.md) |
-| 공통 스타일·동작 변경 | [문서 자원 지침](assets/AGENTS.md) |
+| 공통 스타일·동작 변경 | [문서 자원 지침](project/AGENTS.md#공통-문서-자원-변경) |
 
 ## 공통 문서와 업무 원본
 
@@ -51,3 +51,5 @@
 - 한국어 문서에는 [공용 글쓰기 스킬](skills/guides/korean-work-writing/SKILL.md)을 적용합니다. 제목은 내용을 바로 알 수 있게, 안내 본문은 차분한 ‘합니다’체로 작성합니다. 일반 채팅·코드·인용에는 문서 문체를 강제하지 않습니다.
 - 파트별 내용·상세 목차·업무 절차·업무 스킬은 담당 PL이 관리합니다. 요청 없이 세부 폴더·문서·스킬을 미리 채우지 않습니다.
 - 가이드가 실제 작업 저장소 밖에 있으면 자동 적용을 전제하지 않습니다. 사용할 때 이 지침과 작업 범위를 전달하고, 작업 대상에 적용되는 지침을 확인합니다.
+
+- assets/에는 CSS·JS·이미지·폰트 등 자원만 둡니다. 안내·관리 문서는 해당 문서 영역에, 독립 다이어그램과 원본·갱신 안내는 diagrams/에 둡니다. 자원 관리 방법은 [공통 문서 자원 안내](project/assets.md)를 확인합니다.

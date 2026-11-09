@@ -4,7 +4,7 @@
   "meta": {
     "title": "Lounge 3.0 · 공통 기준과 각자의 AI",
     "locale": "ko",
-    "output": "assets/diagrams/ai-harness.html",
+    "output": "diagrams/ai-harness.html",
     "quality_profile": "showcase",
     "legend": {
       "mode": "auto",

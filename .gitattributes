@@ -1,4 +1,4 @@
 # Preserve generated Archify bytes and exclude upstream template whitespace checks.
-assets/diagrams/ai-harness.html -text -whitespace linguist-generated=true
-assets/diagrams/ai-harness.runtime.patch -text -whitespace
-assets/diagrams/ai-harness-preview.png binary linguist-generated=true
+diagrams/ai-harness.html -text -whitespace linguist-generated=true
+diagrams/ai-harness.runtime.patch -text -whitespace
+assets/images/ai-harness-preview.png binary linguist-generated=true

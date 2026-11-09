@@ -48,7 +48,7 @@
 
 프로젝트 공통 ↔ 각 파트 공통 ↔ 개인 하네스의 관계로 운영합니다. 파트 PL이 파트 공통을 관리하고, 작업자는 개인 AI·하네스를 사용하면서 프로젝트와 파트의 공통 기준을 함께 확인합니다. 의견은 파트 PL과 논의하고 전체 공통 반영은 공통 관리자와 조율합니다.
 
-[양방향 관계와 아래로 흐르는 기준](assets/diagrams/ai-harness.html)
+[양방향 관계와 아래로 흐르는 기준](diagrams/ai-harness.html)
 
 ## 02. 공통 폴더와 파트별 문서 구조
 
@@ -72,6 +72,7 @@ lounge3.0_guide/
 │     ├─ AGENTS.md     # 개발 스킬 선택
 │     └─ 스킬명/SKILL.md
 ├─ templates/          # 공통 HTML 템플릿
+├─ diagrams/          # 독립 다이어그램·원본·갱신 안내
 ├─ assets/             # 공통 스타일·동작
 ├─ planning/           # 기획 저장소 안내·구조 예시
 ├─ design/             # 디자인 저장소 안내·구조 예시
@@ -139,7 +140,7 @@ AI가 한 번에 참고할 수 있는 정보에는 범위가 있습니다. 필�
 
 ### 사람과 AI의 협업 흐름
 
-[사람·AI 협업 흐름도](assets/diagrams/human-ai-workflow.svg)
+[사람·AI 협업 흐름도](assets/images/human-ai-workflow.svg)
 
 | 역할 | 행동 | 확인할 내용 |
 | --- | --- | --- |

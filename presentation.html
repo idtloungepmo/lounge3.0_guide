@@ -36,7 +36,7 @@
 <article class="flow-card card-surface tone-human"><b>담당 PL이 관리</b><strong>파트별 내용과 업무 스킬</strong><small>세부 문서·업무 절차·스킬을 구성하고, 실제 내용이 생길 때 추가합니다.</small></article>
 <article class="flow-card card-surface tone-source"><b>원본에서 확인</b><strong>기획·계약·업무 기록</strong><small>실제 정책·합의·진행 상태는 원본에서 확인하고, 미정과 미확인을 구분합니다.</small></article>
 </div>
-<aside class="diagram-note card-surface tone-guide"><b>공통 ↔ 파트 공통 ↔ 개인 하네스</b><span>각 파트 PL이 파트 공통을 관리하고, 작업자는 개인 AI·하네스를 사용하면서 프로젝트와 파트의 공통 기준을 함께 확인합니다. 의견은 파트 PL과 논의하고 전체 공통 반영은 공통 관리자와 조율합니다.</span></aside><div class="deck-links"><a href="assets/diagrams/ai-harness.html">AI 하네스 관계도</a></div></div></section>
+<aside class="diagram-note card-surface tone-guide"><b>공통 ↔ 파트 공통 ↔ 개인 하네스</b><span>각 파트 PL이 파트 공통을 관리하고, 작업자는 개인 AI·하네스를 사용하면서 프로젝트와 파트의 공통 기준을 함께 확인합니다. 의견은 파트 PL과 논의하고 전체 공통 반영은 공통 관리자와 조율합니다.</span></aside><div class="deck-links"><a href="diagrams/ai-harness.html">AI 하네스 관계도</a></div></div></section>
 <section class="presentation-section compact-section" id="structure" aria-labelledby="structure-title">
 <div class="presentation-content reveal-on-scroll"><div class="section-head"><div><p class="eyebrow">LOUNGE 3.0 · 02 / 05</p><h2 id="structure-title">공통 폴더와<br><em>파트별 문서 구조</em></h2></div><p>공통 기준과 작성 도구를 함께 사용하고, 각 파트의 문서는 같은 역할로 나눕니다.</p></div>
 <div class="diagram-panel structure-grid">
@@ -55,6 +55,7 @@
 │     ├─ AGENTS.md     # 개발 스킬 선택
 │     └─ 스킬명/SKILL.md
 ├─ templates/          # 공통 HTML 템플릿
+├─ diagrams/          # 독립 다이어그램·원본·갱신 안내
 ├─ assets/             # 공통 스타일·동작
 ├─ planning/           # 기획 저장소 안내·구조 예시
 ├─ design/             # 디자인 저장소 안내·구조 예시
@@ -94,7 +95,7 @@
 <div class="presentation-content reveal-on-scroll"><div class="section-head"><div><p class="eyebrow">LOUNGE 3.0 · 04 / 05</p><h2 id="workflow-title">요청부터<br><em>결과 확인까지</em></h2></div><p>공통 작업 기준을 확인하고, 각 PL이 구성한 파트 워크플로우와 스킬을 적용합니다. 결과는 다음 작업에 전달합니다.</p></div>
 <figure class="collaboration-diagram" aria-labelledby="collaboration-caption">
 <h3>사람과 AI의 협업 흐름</h3>
-<div class="collaboration-svg-frame" tabindex="0" role="region" aria-label="사람과 AI의 협업 흐름도. 좁은 화면에서는 좌우로 이동할 수 있습니다."><img src="assets/diagrams/human-ai-workflow.svg" width="1200" height="1010" alt="사람과 AI 역할을 나눈 흐름도. 필요한 결정은 사람에게 확인하고, 수정이 필요하면 AI의 수정·재검증과 사람의 결과 확인으로 돌아갑니다."></div>
+<div class="collaboration-svg-frame" tabindex="0" role="region" aria-label="사람과 AI의 협업 흐름도. 좁은 화면에서는 좌우로 이동할 수 있습니다."><img src="assets/images/human-ai-workflow.svg" width="1200" height="1010" alt="사람과 AI 역할을 나눈 흐름도. 필요한 결정은 사람에게 확인하고, 수정이 필요하면 AI의 수정·재검증과 사람의 결과 확인으로 돌아갑니다."></div>
 <figcaption id="collaboration-caption">결정이 필요한 부분은 사람에게 확인하고, 수정이 필요한 결과는 AI가 수정·재검증해 다시 확인받습니다.</figcaption></figure>
 
 <h3 class="workflow-skills-title">파트 PL이 구성하는 워크플로우</h3>

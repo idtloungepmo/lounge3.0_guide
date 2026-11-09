@@ -22,7 +22,7 @@
 
 Header에는 종류·제목·설명, Footer에는 문서명만 둡니다. 수기 가이드에 날짜·버전·Draft 표시를 일괄 추가하지 않습니다. 공통 common.js의 h2 메뉴와 별도 수동 목차를 중복 생성하지 않습니다. 코드 예시는 pre.hljs와 code[data-language]를 사용하며 코드의 문자·공백·줄바꿈을 보존합니다. 개별 미정은 badge-tbd를 사용합니다.
 
-[공통 문서 자원 안내](../assets/README.md) · [협의·결정·인수인계 내용 양식](../collaboration/templates.md). 내용 양식과 HTML 템플릿은 역할이 다릅니다.
+[공통 문서 자원 안내](../project/assets.md) · [협의·결정·인수인계 내용 양식](../collaboration/templates.md). 내용 양식과 HTML 템플릿은 역할이 다릅니다.
 
 ## 글쓰기 기준
 

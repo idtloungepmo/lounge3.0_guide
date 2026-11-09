@@ -28,9 +28,9 @@ AI가 요청을 이해하고 자료 확인·작업·검증·결과 정리를 진
 
 ## AI 하네스 관계도
 
-[![프로젝트 공통과 파트 공통, 개인 하네스의 양방향 관계](assets/diagrams/ai-harness-preview.png)](assets/diagrams/ai-harness.html)
+[![프로젝트 공통과 파트 공통, 개인 하네스의 양방향 관계](assets/images/ai-harness-preview.png)](diagrams/ai-harness.html)
 
-[애니메이션 관계도](assets/diagrams/ai-harness.html) · [다이어그램 원본과 갱신 방법](assets/diagrams/README.md)
+[애니메이션 관계도](diagrams/ai-harness.html) · [다이어그램 원본과 갱신 방법](diagrams/README.md)
 
 화살표는 기준 공유와 작업 경험의 상호 교류를 나타냅니다. 애니메이션은 프로젝트 공통에서 파트 공통, 개인 하네스로 내려가는 기준의 흐름을 표시합니다. 의견 공유가 곧 기준 확정을 뜻하지는 않습니다.
 
@@ -44,7 +44,8 @@ AI에는 [AGENTS.md](AGENTS.md)와 작업 대상·자료·범위를 전달합니
 | --- | --- | --- |
 | skills | [공용 스킬 안내](skills/AGENTS.md) | 여러 파트가 함께 사용하는 글쓰기 등 공용 지침 |
 | templates | [HTML 템플릿](templates/index.html) · [사용법](templates/README.md) | 파트 시작 페이지와 개별 문서의 공통 형식 |
-| assets | [공통 자원 안내](assets/README.md) | 공통 CSS·JS·파트 색상과 자원 사용법 |
+| assets | [공통 자원 안내](project/assets.md) | 공통 CSS·JS·이미지·파트 색상 자원 |
+| diagrams | [다이어그램 안내](diagrams/README.md) | 독립 다이어그램 HTML·구조 원본·갱신 방법 |
 | project | [프로젝트 정보](project/README.md) | 과업·기술 기준·영역·미확인 사항 |
 | planning | [기획 저장소 안내](planning/README.md) | 파트 저장소 연결과 기본 구조 예시 |
 | design | [디자인 저장소 안내](design/README.md) | 파트 저장소 연결과 기본 구조 예시 |
