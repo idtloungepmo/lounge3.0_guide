@@ -91,19 +91,20 @@
 <aside class="diagram-note card-surface tone-guide"><b>컨텍스트 윈도우</b><span>AI가 한 번에 참고할 수 있는 정보에는 범위가 있습니다. 필요한 기준을 골라 읽도록 AGENTS.md는 짧게 유지합니다.</span></aside>
 </div></section>
 <section class="presentation-section compact-section" id="workflow" aria-labelledby="workflow-title">
-<div class="presentation-content reveal-on-scroll"><div class="section-head"><div><p class="eyebrow">LOUNGE 3.0 · 04 / 05</p><h2 id="workflow-title">요청부터<br><em>결과 확인까지</em></h2></div><p>요청에 맞는 공용 스킬을 선택하고, 결과를 다음 작업에 전달합니다. 파트별 상세 기준과 업무 스킬은 필요한 경우에만 확인합니다.</p></div>
+<div class="presentation-content reveal-on-scroll"><div class="section-head"><div><p class="eyebrow">LOUNGE 3.0 · 04 / 05</p><h2 id="workflow-title">요청부터<br><em>결과 확인까지</em></h2></div><p>공통 작업 기준을 확인하고, 각 PL이 구성한 파트 워크플로우와 스킬을 적용합니다. 결과는 다음 작업에 전달합니다.</p></div>
 <figure class="collaboration-diagram" aria-labelledby="collaboration-caption">
 <h3>사람과 AI의 협업 흐름</h3>
 <div class="collaboration-svg-frame" tabindex="0" role="region" aria-label="사람과 AI의 협업 흐름도. 좁은 화면에서는 좌우로 이동할 수 있습니다."><img src="assets/diagrams/human-ai-workflow.svg" width="1200" height="1010" alt="사람과 AI 역할을 나눈 흐름도. 필요한 결정은 사람에게 확인하고, 수정이 필요하면 AI의 수정·재검증과 사람의 결과 확인으로 돌아갑니다."></div>
 <figcaption id="collaboration-caption">결정이 필요한 부분은 사람에게 확인하고, 수정이 필요한 결과는 AI가 수정·재검증해 다시 확인받습니다.</figcaption></figure>
 
-<h3 class="workflow-skills-title">요청별 공용 스킬</h3>
-<div class="diagram-panel step-flow sequence-palette"><article class="flow-card card-surface step-card"><b>lounge-grill</b><strong>기획·요구 검토</strong><small>기획·요구의 누락이나 충돌을 검토할 때 선택합니다.</small><small>받을 결과: 확인된 요구·결정할 질문·작업 영향.</small></article>
-<article class="flow-card card-surface step-card"><b>lounge-spec</b><strong>설계·작업 계획</strong><small>작업 방법·범위·완료 조건을 정할 때 선택합니다.</small><small>받을 결과: 변경 계획·선행 조건·완료 기준.</small></article>
-<article class="flow-card card-surface step-card"><b>lounge-implement</b><strong>작성·수정·검증</strong><small>실제 프로젝트의 문서·디자인·소스를 변경할 때 선택합니다.</small><small>받을 결과: 변경 결과·실제 검증·미확인 사항.</small></article>
-<article class="flow-card card-surface step-card"><b>lounge-review</b><strong>결과 검토·인수인계</strong><small>결과의 누락·문제와 완료 근거를 확인할 때 선택합니다.</small><small>받을 결과: 수정할 항목·근거·다음 작업.</small></article></div>
-<aside class="diagram-note card-surface tone-guide"><b>스킬 선택 기준</b><span>서비스의 작은 문구 수정은 작성·수정·검증부터 시작할 수 있습니다. 모든 단계를 매번 거치지 않습니다.</span></aside>
-<div class="deck-links"><a href="collaboration/workflow.html">공용 업무 흐름</a><a href="collaboration/planning-comments.html">기획 보완 코멘트 양식</a></div>
+<h3 class="workflow-skills-title">파트 PL이 구성하는 워크플로우</h3>
+<div class="diagram-panel summary-grid">
+<article class="flow-card card-surface tone-guide"><b>공통 기준</b><strong>확인·검증·기록·협의</strong><small>어느 파트와 AI 도구에서도 함께 확인합니다.</small></article>
+<article class="flow-card card-surface tone-human"><b>파트 PL</b><strong>업무에 맞는 흐름과 스킬</strong><small>공통 링크와 파트 업무·자료를 AI에 전달하고, 맷 포코크 원본 스킬을 활용해 작업 순서·입력·결과를 정합니다.</small></article>
+<article class="flow-card card-surface tone-ai"><b>작업자</b><strong>적용하고 개선 사항 공유</strong><small>공통·파트 기준에 따라 작업하고, 개선할 내용은 PL과 논의합니다.</small></article>
+</div>
+<aside class="diagram-note card-surface tone-guide"><b>기존 구성 참고</b><span>프론트·백엔드는 이미 정리된 파트별 흐름을 간단한 참고 예시로 안내합니다. 상세 절차는 각 파트 저장소에서 관리합니다.</span></aside>
+<div class="deck-links"><a href="collaboration/workflow.html">파트별 워크플로우 구성 안내</a><a href="collaboration/planning-comments.html">기획 보완 코멘트 양식</a></div>
 </div></section>
 <section class="presentation-section compact-section" id="records" aria-labelledby="records-title">
 <div class="presentation-content reveal-on-scroll"><div class="section-head"><div>

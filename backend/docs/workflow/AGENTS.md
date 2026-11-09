@@ -2,18 +2,13 @@
 
 [공통 AI 작업 지침](../../../AGENTS.md)과 [공통 문서 운영 기준](../../../project/documentation.md)을 따릅니다. 파트별 업무 절차와 업무 스킬은 담당 PL이 관리합니다.
 
-## 요청별 참고 문서
+## 파트 워크플로우 구성
 
-| 요청 | 공용 스킬 또는 문서 |
-| --- | --- |
-| 기획·요구 검토 | [lounge-grill](../../../skills/development/lounge-grill/SKILL.md) |
-| 설계·작업 계획 | [lounge-spec](../../../skills/development/lounge-spec/SKILL.md) |
-| 작성·수정·검증 | [lounge-implement](../../../skills/development/lounge-implement/SKILL.md) |
-| 결과 검토·인수인계 | [lounge-review](../../../skills/development/lounge-review/SKILL.md) |
-| 기획 보완 코멘트 | [사람·AI 공통 양식](../../../collaboration/planning-comments.md) |
-| 파트별 업무 스킬 선택·관리 | [업무 스킬 관리 지침](skills/AGENTS.md) |
+이 폴더는 기본 구조 예시입니다. 실제 워크플로우와 요청별 스킬은 파트 PL이 해당 파트 저장소에서 관리합니다. [파트별 워크플로우 구성 안내](../../../collaboration/workflow.md)를 참고하고, 프로젝트 공통 기준과 맷 포코크 원본 스킬을 바탕으로 파트에 필요한 흐름을 구성합니다.
 
-필요한 단계에서 시작합니다. 파트별 상세 기준과 업무 스킬은 이번 요청에 필요한 경우에만 추가로 확인합니다.
+요청별 시작점·입력과 결과·검증 방법·파트 간 전달·기록 위치를 실제 업무에 맞게 안내합니다. 다른 파트의 단계나 기존 lounge-* 스킬을 모든 작업의 필수 절차로 복사하지 않습니다.
+
+[기획 보완 코멘트 양식](../../../collaboration/planning-comments.md) · [파트 업무 스킬 관리](skills/AGENTS.md)
 
 - 실제 업무 원본과 기록은 필요할 때 지정합니다. 현재는 위치나 도구 연동을 정하지 않습니다.
 - 이번 요청에 필요한 문서와 스킬을 선택합니다. 단순 수정에 전체 명세·기록·스킬 절차를 요구하지 않습니다.

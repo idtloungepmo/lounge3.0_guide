@@ -87,9 +87,9 @@ AI에는 [AGENTS.md](AGENTS.md)와 작업 대상·자료·범위를 전달합니
 
 기획서와 향후 사용할 Redmine의 업무 기록은 각 원본에서 관리합니다. 이 가이드에는 AI의 작업 방법과 작성 기준을 두며, 기획 내용·이슈 상세·진행 상태를 별도 확정본으로 복제하지 않습니다. 실제 위치와 연동 방식은 추후 정리합니다.
 
-## 공용 업무 흐름과 코멘트
+## 파트별 워크플로우 구성과 코멘트
 
-[공용 업무 흐름과 스킬 선택](collaboration/workflow.html) · [기획 보완 코멘트 — 사람·AI 공통 양식](collaboration/planning-comments.html). AI는 [공용 스킬 안내](skills/AGENTS.md)에서 필요한 스킬만 선택합니다.
+[파트별 워크플로우 구성 안내](collaboration/workflow.html) · [기획 보완 코멘트 — 사람·AI 공통 양식](collaboration/planning-comments.html). 각 PL은 공통 기준과 맷 포코크 원본 스킬을 참고해 파트에 맞는 흐름을 구성합니다. 프론트·백엔드는 기존 구성 예시만 짧게 안내하며, 상세 절차와 실제 사용할 스킬은 각 파트 저장소에서 관리합니다.
 
 ## 공용 스킬의 구분
 

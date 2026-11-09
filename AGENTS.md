@@ -29,7 +29,7 @@
 | 디자인 | [디자인 지침](design/AGENTS.md) |
 | 프론트엔드 | [프론트엔드 지침](frontend/AGENTS.md) |
 | 백엔드 | [백엔드 지침](backend/AGENTS.md) |
-| 실제 프로젝트 개발 스킬 선택 | [개발 스킬 안내](skills/development/AGENTS.md) |
+| 파트별 워크플로우 구성과 스킬 선택 | [구성 안내](collaboration/workflow.md) · [스킬 선택](skills/development/AGENTS.md) |
 | 파트 간 협의·변경 영향·인수인계 | [협업 지침](collaboration/AGENTS.md) |
 | 기획 보완 코멘트 작성 | [공통 코멘트 양식](collaboration/planning-comments.md) |
 | 한국어 문서 작성·문체 수정 | [공용 글쓰기 스킬](skills/guides/korean-work-writing/SKILL.md) |

@@ -49,18 +49,40 @@
 <article class="card" data-part="design"><div class="label">03 / DESIGN</div><h3>디자인</h3><p>기획의 흐름과 상태를 화면·공통 UI로 구체화합니다.</p><ul><li>기획·Figma·컴포넌트·토큰 연결</li><li>화면 상태·반응형·접근성·디자인 검수</li></ul><div class="card-links"><a href="https://github.com/leemunhyoung/TLDS3.0">파트 저장소 →</a><a href="design/README.md">연결·구조 안내 →</a></div></article>
 <article class="card" data-part="frontend"><div class="label">04 / FRONTEND</div><h3>프론트엔드</h3><p>브라우저·앱 WebView 화면을 구현하고 Native와의 경계를 확인합니다.</p><ul><li>Next.js·React·TypeScript와 공통 UI</li><li>상태·폼·API·Bridge·구현 검증</li></ul><div class="card-links"><a href="https://github.com/minsukong/lounge-docs">파트 저장소 →</a><a href="frontend/README.md">연결·구조 안내 →</a></div></article>
 <article class="card" data-part="backend"><div class="label">05 / BACKEND</div><h3>백엔드</h3><p>업무 규칙을 API·데이터·외부 연동과 연결합니다.</p><ul><li>도메인·인증·권한·상태·데이터</li><li>API 계약·실행 기준·통합 검증</li></ul><div class="card-links"><span>저장소 준비 중</span><a href="backend/README.md">연결·구조 안내 →</a></div></article>
-<article class="card"><div class="label">06 / COLLABORATION</div><h3>파트 간 협업</h3><p>한 파트의 변경을 관련 계약·작업·검수에 연결합니다.</p><ul><li>정책·디자인·API·Native 변경의 영향</li><li>미정·결정·전달·인수인계 기록</li></ul><div class="card-links"><a href="collaboration/workflow.html">공용 업무 흐름 →</a><a href="collaboration/planning-comments.html">기획 보완 코멘트 →</a><a href="collaboration/README.md">협업 절차 →</a><a href="collaboration/AGENTS.md">AI 지침 →</a><a href="collaboration/contracts.md">계약 확인 →</a></div></article>
+<article class="card"><div class="label">06 / COLLABORATION</div><h3>파트 간 협업</h3><p>한 파트의 변경을 관련 계약·작업·검수에 연결합니다.</p><ul><li>정책·디자인·API·Native 변경의 영향</li><li>파트 PL의 워크플로우 구성·스킬 선택</li><li>미정·결정·전달·인수인계 기록</li></ul><div class="card-links"><a href="collaboration/workflow.html">파트별 워크플로우 구성 →</a><a href="collaboration/planning-comments.html">기획 보완 코멘트 →</a><a href="collaboration/README.md">협업 절차 →</a><a href="collaboration/AGENTS.md">AI 지침 →</a><a href="collaboration/contracts.md">계약 확인 →</a></div></article>
 </div>
 </section>
 
 <section id="authoring" aria-labelledby="authoring-title">
 <h2 id="authoring-title">03. 공통 문서 형식과 파트별 관리</h2>
-<p class="intro">각 파트는 별도 저장소의 docs 아래에 문서를 정리하고 사람과 AI의 시작점을 구분합니다. 문서 내용·상세 목차·업무 절차·파트별 스킬은 담당 PL이 관리합니다. 문서를 추가하면 AGENTS.md에 위치와 참고할 상황을 안내하고, 사람용 목차에도 링크를 추가합니다.</p>
-<div class="cards"><article class="card"><div class="label">TEMPLATES</div><h3>공통 HTML 템플릿</h3><p>파트 시작 페이지는 목차형, 가이드·명세는 문서형 템플릿을 사용합니다. 문서 내용과 세부 구성은 각 PL이 정합니다.</p><div class="card-links"><a href="templates/index.html">미리보기·사용법 →</a><a href="templates/AGENTS.md">AI 지침 →</a></div></article>
-<article class="card"><div class="label">ASSETS</div><h3>함께 사용하는 스타일과 동작</h3><p>공통 CSS·JS·파트별 색상을 한곳에서 관리합니다. 각 문서는 같은 원본을 연결해 사용합니다.</p><div class="card-links"><a href="assets/README.md">자원 사용 안내 →</a><a href="assets/AGENTS.md">AI 지침 →</a></div></article></div>
-<p><a href="project/documentation.html">공통 문서 운영 안내 →</a> · <a href="skills/guides/korean-work-writing/SKILL.md">공용 글쓰기 스킬 →</a></p>
-<p>한국어 문서는 공용 글쓰기 스킬을 적용합니다. 제목은 내용을 바로 알 수 있게, 안내 본문은 차분한 ‘합니다’체로 작성합니다.</p>
-<p class="note">이 저장소의 파트 README는 저장소 연결과 기본 구조 예시를 안내합니다. 상세 문서·하위 폴더·업무 스킬은 실제 내용이 생길 때 담당 PL이 추가합니다.</p>
+<p class="authoring-intro">각 파트는 별도 저장소의 docs 아래에 문서를 정리하고, 사람과 AI의 시작점을 구분합니다.</p>
+<div class="authoring-grid">
+<article class="authoring-card">
+<div class="authoring-category"><span aria-hidden="true">01</span> 문서 형식</div>
+<h3>공통 HTML 템플릿</h3>
+<p>파트 시작 페이지는 목차형, 가이드·명세는 문서형 템플릿을 사용합니다.</p>
+<div class="authoring-actions"><a class="authoring-primary" href="templates/index.html">미리보기·사용법 <span aria-hidden="true">↗</span></a><a class="authoring-secondary" href="templates/AGENTS.md">AI 지침 <span aria-hidden="true">→</span></a></div>
+</article>
+<article class="authoring-card">
+<div class="authoring-category"><span aria-hidden="true">02</span> 공통 자원</div>
+<h3>스타일과 동작</h3>
+<p>공통 CSS·JS·파트별 색상을 한곳에서 관리합니다. 각 문서는 같은 원본을 연결해 사용합니다.</p>
+<div class="authoring-actions"><a class="authoring-primary" href="assets/README.md">자원 사용 안내 <span aria-hidden="true">↗</span></a><a class="authoring-secondary" href="assets/AGENTS.md">AI 지침 <span aria-hidden="true">→</span></a></div>
+</article>
+<article class="authoring-card">
+<div class="authoring-category"><span aria-hidden="true">03</span> 작성 기준</div>
+<h3>한국어 글쓰기</h3>
+<p>제목은 내용을 바로 알 수 있게, 안내 본문은 차분한 ‘합니다’체로 작성합니다. 한국어 문서는 공용 글쓰기 스킬을 적용합니다.</p>
+<div class="authoring-actions"><a class="authoring-primary" href="skills/guides/korean-work-writing/SKILL.md">공용 글쓰기 스킬 <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="authoring-card">
+<div class="authoring-category"><span aria-hidden="true">04</span> 운영 기준</div>
+<h3>문서 추가와 관리</h3>
+<p>문서를 추가하면 AGENTS.md에 위치와 참고할 상황을 안내하고, 사람용 목차에도 링크를 추가합니다.</p>
+<div class="authoring-actions"><a class="authoring-primary" href="project/documentation.html">공통 문서 운영 <span aria-hidden="true">↗</span></a><a class="authoring-secondary" href="project/maintenance.md">관리 기준 <span aria-hidden="true">→</span></a></div>
+</article>
+</div>
+<div class="authoring-owner"><span class="authoring-owner-label">파트 PL 관리</span><div><p>문서 내용·세부 구성·상세 목차·업무 절차·파트별 스킬은 각 PL이 관리합니다.</p><p>이 저장소의 파트 README는 저장소 연결과 기본 구조 예시를 안내합니다. 상세 문서·하위 폴더·업무 스킬은 실제 내용이 생길 때 담당 PL이 추가합니다.</p></div></div>
 </section>
 
 <section id="request" aria-labelledby="request-title">
@@ -89,7 +111,7 @@
 <details open><summary>작업 중 발견한 개선 사항은 어디에 반영하나요?</summary><p>먼저 파트 PL과 논의합니다. 파트에서만 필요한 내용은 파트 공통에 남기고, 여러 파트에 필요한 내용은 공통 관리자와 조율해 lounge3.0_guide에 반영합니다. 각 PL이 파트 공통을 유지하며, 공통 관리자는 전달받은 저장소 주소와 전체 공통 기준을 관리합니다.</p><p><a href="project/maintenance.md#공통-기준의-반영-절차">공통 반영 절차 →</a></p></details>
 <details><summary>정보와 지침은 어디에 추가하나요?</summary><p>루트 AGENTS.md에는 시작 경로와 최소 규칙을, 파트 AGENTS.md에는 자료 선택과 작업 지침을 둡니다. 파트별 내용과 구성은 담당 PL이 관리합니다. 사람용 HTML은 공통 템플릿을 사용하고, 실제 문서가 생기면 파트 AGENTS.md와 사람용 목차에서 연결합니다.</p><p><a href="project/maintenance.md">문서 관리 기준 →</a></p></details>
 <details><summary>확정·현행 확인·제안·미정은 어떻게 구분하나요?</summary><p>승인된 목표 기준, 실제 확인한 구현, 검토할 제안, 아직 결정·확인하지 못한 항목을 나눕니다. 결정 확정과 구현·검증 완료도 따로 기록합니다.</p><p><a href="collaboration/decisions.md">미정·충돌·결정 관리 →</a></p></details>
-<details><summary>한 파트의 변경이 다른 파트에 영향을 주면?</summary><p>정책·화면·API·데이터·Native·일정·검수 중 관련된 영향을 확인하고, 근거와 필요한 판단을 전달합니다. 기존 팀 기록 위치가 있으면 그곳을 원본으로 사용합니다.</p><p><a href="collaboration/workflow.html">공용 업무 흐름 →</a><a href="collaboration/planning-comments.html">기획 보완 코멘트 →</a><a href="collaboration/README.md">협업 절차 →</a> &nbsp; <a href="collaboration/templates.md">기록·인수인계 양식 →</a></p></details>
+<details><summary>한 파트의 변경이 다른 파트에 영향을 주면?</summary><p>정책·화면·API·데이터·Native·일정·검수 중 관련된 영향을 확인하고, 근거와 필요한 판단을 전달합니다. 기존 팀 기록 위치가 있으면 그곳을 원본으로 사용합니다.</p><p><a href="collaboration/workflow.html">파트별 워크플로우 구성 →</a><a href="collaboration/planning-comments.html">기획 보완 코멘트 →</a><a href="collaboration/README.md">협업 절차 →</a> &nbsp; <a href="collaboration/templates.md">기록·인수인계 양식 →</a></p></details>
 
 </section>
 <footer><span>더라운지 · 라운지 3.0 프로젝트 공통 가이드</span><span>AI 안내: AGENTS.md · 사람용 문서: HTML · 공통 문서 운영 기준</span></footer>

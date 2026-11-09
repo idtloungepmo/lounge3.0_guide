@@ -73,3 +73,30 @@ footer span { display: block; margin-bottom: 8px; }
 .harness-preview { margin: 28px 0; text-align: center; }
 .harness-preview img { display: block; width: 100%; max-width: 640px; height: auto; margin: 0 auto; border: 1px solid var(--krds-gray-20); border-radius: var(--krds-radius); }
 .harness-preview figcaption { margin-top: 12px; font-size: 15px; }
+
+/* 문서 작성 안내: 네 가지 시작점을 같은 카드 안에 정리한다. */
+#authoring .authoring-intro { margin: 0 0 28px; padding: 0; font-size: 18px; line-height: 1.75; color: #475569; }
+.authoring-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.authoring-card { display: flex; flex-direction: column; min-width: 0; padding: 28px; border: 1px solid #dce3ed; border-radius: 16px; background: #fff; }
+.authoring-category { display: flex; align-items: center; gap: 10px; color: #64748b; font-size: 13px; font-weight: 700; letter-spacing: .02em; }
+.authoring-category > span { display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 8px; background: #eff4fc; color: #2452a1; font-size: 12px; letter-spacing: 0; }
+#authoring .authoring-card h3 { margin: 18px 0 12px; font-size: 22px; line-height: 1.4; letter-spacing: -.03em; }
+#authoring .authoring-card > p { margin: 0 0 24px; color: #475569; font-size: 16px; line-height: 1.8; }
+.authoring-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin-top: auto; padding-top: 20px; border-top: 1px solid #edf0f5; }
+#authoring .authoring-actions a { display: inline-flex; align-items: center; gap: 14px; font-size: 14px; font-weight: 700; line-height: 1.5; text-decoration: none; }
+#authoring .authoring-primary { padding: 9px 13px; border-radius: 8px; background: #eff4fc; color: #2452a1; }
+#authoring .authoring-secondary { padding: 9px 0; color: #64748b; }
+#authoring .authoring-actions a:hover { color: #123a7c; text-decoration: underline; text-underline-offset: 4px; }
+#authoring .authoring-actions a:focus-visible { outline: 3px solid #2563eb; outline-offset: 4px; }
+.authoring-owner { display: flex; align-items: flex-start; gap: 20px; margin-top: 22px; padding: 22px 24px; border: 1px solid #e5e9ef; border-radius: 12px; background: #f8fafc; }
+.authoring-owner-label { flex-shrink: 0; margin-top: 2px; font-size: 13px; font-weight: 700; line-height: 1.7; color: #334155; }
+#authoring .authoring-owner p { margin: 0; color: #475569; font-size: 15px; line-height: 1.8; }
+#authoring .authoring-owner p + p { margin-top: 6px; color: #64748b; font-size: 14px; }
+@media (max-width: 700px) {
+  .authoring-grid { grid-template-columns: 1fr; gap: 14px; }
+  .authoring-card { padding: 22px; }
+  #authoring .authoring-intro { font-size: 16px; margin-bottom: 22px; }
+  #authoring .authoring-card h3 { font-size: 21px; }
+  .authoring-owner { flex-direction: column; gap: 8px; padding: 20px; }
+}
+@media print { .authoring-card, .authoring-owner { break-inside: avoid; } }
