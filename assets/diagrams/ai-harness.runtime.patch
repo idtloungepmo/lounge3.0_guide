@@ -1,0 +1,32 @@
+--- a/archify/assets/template.html
++++ b/archify/assets/template.html
+@@ -7470,6 +7470,12 @@
+       var entryStarted = false;
+       var entryPending = new Set();
+       var flowCount = 0;
++      // This Lounge explainer animates only the downward sharing of criteria.
++      // Reciprocal authored edges remain visible and interactive as feedback.
++      var loungeDownstreamMotion = !!(svg &&
++        svg.querySelector('[data-node-id="shared-guide"]') &&
++        svg.querySelector('[data-node-id="part-guides"]') &&
++        svg.querySelector('[data-node-id="personal-ai"]'));
+ 
+       // Runtime decoration carries geometry and tree visibility only. Keep each
+       // flow beside its authored edge so transforms, clipping and crossover
+@@ -7790,6 +7796,7 @@
+       function createFlows() {
+         var records = [];
+         Array.prototype.forEach.call(svg.querySelectorAll('path[data-animate="edge"]'), function (shape, index) {
++          if (loungeDownstreamMotion && /-feedback$/.test(shape.getAttribute('data-edge-id') || '')) return;
+           var d = shape.getAttribute('data-motion-path') || shape.getAttribute('d');
+           if (!d) return;
+           var anchor = shape;
+@@ -8117,7 +8124,7 @@
+       createFlows();
+       html.setAttribute('data-motion-capable', 'true');
+       btn.hidden = false;
+-      readerPaused = readStored() !== 'live';
++      readerPaused = loungeDownstreamMotion ? false : readStored() !== 'live';
+       btn.addEventListener('click', function () { setPaused(!readerPaused); });
+       if (motionQuery) {
+         if (typeof motionQuery.addEventListener === 'function') motionQuery.addEventListener('change', render);

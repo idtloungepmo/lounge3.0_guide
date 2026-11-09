@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Lounge 3.0 · 공통 기준과 각자의 AI",
+    "locale": "ko",
+    "output": "assets/diagrams/ai-harness.html",
+    "quality_profile": "showcase",
+    "legend": {
+      "mode": "auto",
+      "entries": {
+        "external": {
+          "label": "작업자와 AI"
+        },
+        "backend": {
+          "label": "파트별 하네스·가이드"
+        },
+        "security": {
+          "label": "프로젝트 공통 기준"
+        }
+      }
+    }
+  },
+  "components": [
+    {
+      "id": "shared-guide",
+      "type": "security",
+      "icon": "neutral",
+      "label": "프로젝트 공통",
+      "sublabel": "lounge3.0_guide",
+      "tag": "공용 스킬 · 검증 기준 · 공통 정보",
+      "pos": [
+        40,
+        40
+      ],
+      "size": [
+        340,
+        100
+      ]
+    },
+    {
+      "id": "part-guides",
+      "type": "backend",
+      "icon": "briefcase",
+      "label": "각 파트 공통 하네스·가이드",
+      "sublabel": "기획 · 디자인 · 프론트 · 백엔드",
+      "tag": "각 파트 PL이 관리",
+      "pos": [
+        40,
+        260
+      ],
+      "size": [
+        340,
+        100
+      ]
+    },
+    {
+      "id": "personal-ai",
+      "type": "external",
+      "icon": "person",
+      "label": "개인 하네스 · 각자의 AI",
+      "sublabel": "작업자별 자유롭게 구성",
+      "tag": "프로젝트·파트 공통은 필수 참고",
+      "pos": [
+        40,
+        480
+      ],
+      "size": [
+        340,
+        100
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "common-to-parts",
+      "from": "shared-guide",
+      "to": "part-guides",
+      "label": "공통 기준",
+      "variant": "default"
+    },
+    {
+      "id": "parts-to-common-feedback",
+      "from": "part-guides",
+      "to": "shared-guide",
+      "label": "파트 의견 공유",
+      "variant": "default"
+    },
+    {
+      "id": "parts-to-personal",
+      "from": "part-guides",
+      "to": "personal-ai",
+      "label": "파트 기준",
+      "variant": "default"
+    },
+    {
+      "id": "personal-to-parts-feedback",
+      "from": "personal-ai",
+      "to": "part-guides",
+      "label": "작업 경험 공유",
+      "variant": "default"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "violet",
+      "title": "공통",
+      "items": [
+        "모든 파트가 lounge3.0_guide를 참고합니다.",
+        "공통 기준은 아래로 흐르고, 의견은 서로 주고받습니다."
+      ]
+    },
+    {
+      "dot": "emerald",
+      "title": "파트 PL",
+      "items": [
+        "파트별 저장소의 하네스와 가이드를 관리합니다.",
+        "작업자의 경험을 논의하고 필요한 공통 개선을 제안합니다."
+      ]
+    },
+    {
+      "dot": "slate",
+      "title": "작업자",
+      "items": [
+        "AI와 개인 하네스는 자유롭게 선택합니다.",
+        "작업할 때 공통 기준과 파트 기준을 함께 확인합니다."
+      ]
+    }
+  ]
+}

@@ -36,11 +36,11 @@
 <article class="flow-card card-surface tone-human"><b>담당 PL이 관리</b><strong>파트별 내용과 업무 스킬</strong><small>세부 문서·업무 절차·스킬을 구성하고, 실제 내용이 생길 때 추가합니다.</small></article>
 <article class="flow-card card-surface tone-source"><b>원본에서 확인</b><strong>기획·계약·업무 기록</strong><small>실제 정책·합의·진행 상태는 원본에서 확인하고, 미정과 미확인을 구분합니다.</small></article>
 </div>
-</div></section>
+<aside class="diagram-note card-surface tone-guide"><b>공통 ↔ 파트 공통 ↔ 개인 하네스</b><span>각 파트 PL이 파트 공통을 관리하고, 작업자는 개인 AI·하네스를 사용하면서 프로젝트와 파트의 공통 기준을 함께 확인합니다. 의견은 파트 PL과 논의하고 전체 공통 반영은 공통 관리자와 조율합니다.</span></aside><div class="deck-links"><a href="assets/diagrams/ai-harness.html">AI 하네스 관계도</a></div></div></section>
 <section class="presentation-section compact-section" id="structure" aria-labelledby="structure-title">
 <div class="presentation-content reveal-on-scroll"><div class="section-head"><div><p class="eyebrow">LOUNGE 3.0 · 02 / 05</p><h2 id="structure-title">공통 폴더와<br><em>파트별 문서 구조</em></h2></div><p>공통 기준과 작성 도구를 함께 사용하고, 각 파트의 문서는 같은 역할로 나눕니다.</p></div>
 <div class="diagram-panel structure-grid">
-<article class="flow-card card-surface tone-guide"><b>함께 사용하는 기준과 도구</b><strong>공통 폴더</strong><pre class="structure-tree"><code>project_guide/
+<article class="flow-card card-surface tone-guide"><b>함께 사용하는 기준과 도구</b><strong>공통 폴더</strong><pre class="structure-tree"><code>lounge3.0_guide/
 ├─ AGENTS.md           # 공통 기준·파트 선택
 ├─ index.html          # 전체 시작 페이지
 ├─ presentation.html   # 공통 기준 브리핑
@@ -56,11 +56,11 @@
 │     └─ 스킬명/SKILL.md
 ├─ templates/          # 공통 HTML 템플릿
 ├─ assets/             # 공통 스타일·동작
-├─ planning/           # 기획
-├─ design/             # 디자인
-├─ frontend/           # 프론트엔드
+├─ planning/           # 기획 저장소 안내·구조 예시
+├─ design/             # 디자인 저장소 안내·구조 예시
+├─ frontend/           # 프론트엔드 저장소 안내·구조 예시
 └─ backend/            # 백엔드</code></pre></article>
-<article class="flow-card card-surface tone-human"><b>담당 PL이 관리하는 문서</b><strong>파트별 문서 구조</strong><pre class="structure-tree"><code>각 파트/
+<article class="flow-card card-surface tone-human"><b>담당 PL이 관리하는 문서</b><strong>파트별 문서 구조</strong><pre class="structure-tree"><code>각 파트의 별도 저장소/
 ├─ AGENTS.md           # 파트 기준·문서 선택
 ├─ README.md           # 파트 안내
 └─ docs/
@@ -77,7 +77,7 @@
          ├─ AGENTS.md # 파트별 업무 스킬 선택
          └─ 스킬명/
             └─ SKILL.md # 선택한 스킬의 작업 방법</code></pre></article>
-</div><p class="deck-status"><strong>계층을 읽는 방법</strong><br>루트의 공통 기준 → 해당 파트의 지침 → 요청별 문서·스킬 선택 → 필요한 원본 확인. 각 단계에서는 현재 작업에 필요한 내용만 읽고, 작업 대상에 적용되는 지침은 함께 확인합니다.</p><aside class="diagram-note card-surface tone-guide"><b>문서 구성 기준</b><span>파트별 구조는 작성 기준입니다. 상세 문서와 하위 폴더는 실제 내용이 생길 때 담당 PL이 추가합니다. 실제 저장소 위치와 연결 방식은 추후 정리합니다.</span></aside>
+</div><p class="deck-status"><strong>계층을 읽는 방법</strong><br>루트의 공통 기준 → 해당 파트의 지침 → 요청별 문서·스킬 선택 → 필요한 원본 확인. 각 단계에서는 현재 작업에 필요한 내용만 읽고, 작업 대상에 적용되는 지침은 함께 확인합니다.</p><aside class="diagram-note card-surface tone-guide"><b>문서 구성 기준</b><span>파트별 구조는 작성 기준입니다. 상세 문서와 하위 폴더는 실제 내용이 생길 때 담당 PL이 추가합니다. 파트 저장소는 공통 가이드의 저장소 안내에서 선택합니다. 이 저장소의 파트 폴더는 연결 안내와 기본 구조 예시입니다.</span></aside>
 </div></section>
 <section class="presentation-section compact-section" id="reading" aria-labelledby="reading-title">
 <div class="presentation-content reveal-on-scroll"><div class="section-head"><div>
@@ -114,7 +114,7 @@
 <article class="flow-card card-surface tone-guide"><b>공통 기준</b><strong>문서·지침·스킬</strong><small>AI가 어떤 자료를 읽고, 어떻게 작업·검증·결과 정리를 할지 안내합니다.</small></article>
 <article class="flow-card card-surface tone-human"><b>업무 기록</b><strong>향후 Redmine과 함께</strong><small>작업·질문·문제·결정·진행 상태는 지정된 업무 기록을 기준으로 확인합니다.</small></article>
 </div>
-<aside class="diagram-note card-surface tone-guide"><b>적용 순서</b><span>지금은 공통 구조와 작성 기준을 준비합니다. 저장소 위치와 Redmine 연동은 추후 정리합니다.</span></aside>
+<aside class="diagram-note card-surface tone-guide"><b>적용 순서</b><span>프로젝트 공통과 각 파트의 별도 저장소를 함께 사용합니다. 개별 업무 기록 위치와 Redmine 연동은 확인된 범위에서 안내합니다.</span></aside>
 <div class="deck-links"><a href="index.html">전체 가이드</a><a href="project/documentation.html">공통 문서 운영 기준</a><a href="presentation.md">브리핑 원본</a></div>
 </div></section>
 </main>

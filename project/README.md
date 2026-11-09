@@ -13,7 +13,7 @@
 - [공통 색상 기준](part-colors.md)
 - [공용 글쓰기 스킬](../skills/guides/korean-work-writing/SKILL.md)
 
-실제 작업 폴더와 외부 자료의 위치는 추후 정리합니다.
+[파트별 저장소](../README.md#저장소-안내)와 [AI 하네스 관계도](../assets/diagrams/ai-harness.html)를 확인합니다. 실제 작업 폴더와 업무 원본의 위치는 해당 파트에서 확인합니다.
 
 ## AI 작업과 업무 원본
 

@@ -68,3 +68,8 @@ footer span { display: block; margin-bottom: 8px; }
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
+
+/* 공통·파트·개인 하네스 관계도 미리보기 */
+.harness-preview { margin: 28px 0; text-align: center; }
+.harness-preview img { display: block; width: 100%; max-width: 640px; height: auto; margin: 0 auto; border: 1px solid var(--krds-gray-20); border-radius: var(--krds-radius); }
+.harness-preview figcaption { margin-top: 12px; font-size: 15px; }
